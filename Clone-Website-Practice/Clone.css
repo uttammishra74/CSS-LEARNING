@@ -2,6 +2,7 @@ body {
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
+    background-color: #1c1e1ff5;
 
 }
 
@@ -15,17 +16,16 @@ body {
 
 #navbar-logo a {
     text-decoration: none;
-    color: #ffffff;
-    font-size: 22px;
+    color: #3319a9;
+    font-size: 32px;
     font-weight: 700;
     letter-spacing: 0.5px;
-    transition: opacity 0.2s ease;
 }
 
 #search-logo {
     position: absolute;
     left: 12px;
-    color: #878787;
+    color: #938c8c;
     pointer-events: none;
 }
 
@@ -64,4 +64,53 @@ body {
     font-size: 15px;
     font-weight: 500;
     transition: color 0.2s ease;
+}
+
+.line1{
+    margin-top: 12px;
+    height: 12px;
+    background-color: #1C1E1F;
+}
+
+.line2{
+    /* margin-top: 12px; */
+    height: 27px;
+    background-color: #1C1E1F;
+}
+
+.boxes{
+    background-color:#1c1e1f2b;
+    height: 154px;
+    display: flex;
+    align-items: center;
+    gap: 28px; 
+    justify-content: space-between;
+    padding: 10px 24px;     
+}
+
+.box{
+    width:110px;
+    height:150px;
+    border:1px solid #ffffff;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#ffffffa7;
+    overflow:hidden; /* Keeps image inside rounded corners */
+}
+
+.box img{
+    width:90px;
+    height:90px;
+    border-radius:50%;   /* Makes image circular */
+    object-fit:cover;
+}
+
+.box p{
+    margin-top:10px;
+    font-size:15px;
+    font-weight:bold;
+    text-align:center;
 }
