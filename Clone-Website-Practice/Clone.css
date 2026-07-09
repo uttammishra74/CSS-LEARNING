@@ -1,8 +1,7 @@
-body {
+ body{
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
-    background-color: #1c1e1ff5;
+    background-color: #877f7f26;
 
 }
 
@@ -11,7 +10,10 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 24px;
-    background-color: #1C1E1F;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 #navbar-logo a {
@@ -25,8 +27,8 @@ body {
 #search-logo {
     position: absolute;
     left: 12px;
-    color: #938c8c;
-    pointer-events: none;
+    color: #656161;
+
 }
 
 .nav-searchbar {
@@ -42,75 +44,112 @@ body {
     width: 100%;
     padding: 10px 15px 10px 35px;
     font-size: 14px;
-    border: 1px solid #dbdbdb;
+    border: 1px solid #ffffff;
     border-radius: 4px;
-    background-color: #f0f5ff;
-    outline: none;
-    box-sizing: border-box;
+    background-color: #ecf8ffe7
 }
 
 
 .navextra {
     display: flex;
     align-items: center;  
-    gap: 28px; 
+    gap: 82px; 
 }           
 
 .navextra a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #ffffff;       
-    font-size: 15px;
-    font-weight: 500;
-    transition: color 0.2s ease;
+    color: #000000;       
+    font-size: 18px;
+    font-weight: 510;
 }
 
-.line1{
-    margin-top: 12px;
-    height: 12px;
-    background-color: #1C1E1F;
-}
+.navextra i{
+    font-size: 19px; 
+    margin-left: 50px;
+    padding-right: 8px; 
+    
 
-.line2{
-    /* margin-top: 12px; */
-    height: 27px;
-    background-color: #1C1E1F;
 }
 
 .boxes{
-    background-color:#1c1e1f2b;
+    background-color:#ffffff;
     height: 154px;
+    width: 70%;
     display: flex;
     align-items: center;
-    gap: 28px; 
-    justify-content: space-between;
-    padding: 10px 24px;     
+    gap:  18px;
+    justify-content: space-evenly;
+    padding: 20px 155px 20px 105px;
+    margin-left: 5%; 
+    margin-top: 12px;    
 }
 
 .box{
     width:110px;
-    height:150px;
-    border:1px solid #ffffff;
-    border-radius:15px;
+    height:155px;
+    border:1px solid #514f4f;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background:#ffffffa7;
-    overflow:hidden; /* Keeps image inside rounded corners */
+    border-radius: 10px;
+    /* background:#fe0303; */
+    overflow:hidden;
 }
 
 .box img{
-    width:90px;
-    height:90px;
-    border-radius:50%;   /* Makes image circular */
+    width:100px;
+    height:100px;
+    border-radius: 5px;
     object-fit:cover;
 }
 
 .box p{
-    margin-top:10px;
+    margin-top:12px;
     font-size:15px;
     font-weight:bold;
     text-align:center;
 }
+
+.champ img {
+    width:87%;
+    height:auto;
+    object-fit:cover; 
+    margin-left: 5%; 
+    margin-top: 15px; 
+}
+
+#img-7{
+    height: auto;
+    width: 87%;
+    margin-left: 5%; 
+    margin-top: 15px;
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+
+.sections img {
+    height: auto;
+    width: 62%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 70px;
+    border-radius: 10px;   
+}
+
+
+.super2 img {
+    height: auto;
+    width: 87%;
+    margin-left: 5%; 
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
