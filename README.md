@@ -8,13 +8,9 @@ A frontend clone of the **Shopsy** homepage built using **HTML5** and **CSS3**. 
 
 ## 📸 Preview
 
-> Add a screenshot of your project here.
+> ![alt text](<Clone-Website-Practice/Screenshot 2026-07-09 170508.png>)
+![alt text](<Clone-Website-Practice/Screenshot 2026-07-09 170531.png>)
 
-Example:
-
-```
-images/screenshot.png
-```
 
 ---
 
