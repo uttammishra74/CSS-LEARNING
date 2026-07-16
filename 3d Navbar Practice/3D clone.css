@@ -49,7 +49,8 @@ button{
     border-radius: 50%;
     box-shadow: 4px 5px 10px #5b5a5a; 
     cursor: pointer;
-
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    transform: translateY(-1px);
 }
 
 .button-in{
